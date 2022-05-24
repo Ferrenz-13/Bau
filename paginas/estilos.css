@@ -144,16 +144,17 @@ body{
     display:flex ;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
 }
 .ecologico h3{
     color: fuchsia;
     background-color: aliceblue;
     border-radius: 20px;
     padding: 10px 10px;
-
-
 }
-
+.ecologico :hover{
+    transform:scale(1.5)
+}
 .didactico{
     float: left;
     margin-right: 20px;
@@ -166,6 +167,7 @@ body{
     display:flex ;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
 }
 .didactico h3{
     color: fuchsia;
@@ -173,7 +175,9 @@ body{
     border-radius: 20px;
     padding: 10px 10px;
 }
-
+.didactico :hover{
+    transform:scale(1.5)
+}
 .duradero{
     float: left;
     margin-right: 20px;
@@ -186,12 +190,17 @@ body{
     display:flex ;
     align-items: center;
     justify-content: center;
+    transition: transform .3s;
 }
 .duradero h3{
     color: fuchsia;
     background-color: aliceblue;
     border-radius: 20px;
     padding: 10px 10px;
+}
+
+.duradero :hover{
+    transform:scale(1.5)
 }
 
 .proyects{
