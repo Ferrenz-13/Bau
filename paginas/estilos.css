@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --colortitulos: #14AAA5;
+    --colortextos: #f0f05f;
+    --colorbotones: #f0aa46;
+    --colorfondo: #a381f2;
+    --paddingsecciones: 60px  0;
+    --marginelementos: 40px;
+}
+
+body{
+    font-family: "lato", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+}
+
+/* Menu */
+
+.menu-navegacion{
+    padding: 20px;
+    margin: 0 20 0;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    background-color:#a381f2;
+}
+
+.logo{
+    height: 100px;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+}
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: #f0f05f;
+    padding-left: 30px;
+}
+
+/* Portada*/
+
+.portada{
+    height: 500px;
+    background-color: #a381f2;
+    background-image: url(../Imagenes/niños\ portada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.contenedor-textos{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.portada h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.portada p{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.boton{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: var(--colorbotones);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 20px;
+    align-content: center;
+}
+/* Main */
+
+.index{
+    background-color: #a381f2;
+}
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 40px;
+    color: var(--colortextos);
+}
+
+.copy{
+    text-align: center;
+    font-size: 23px;
+    color: #f59817;
+    margin: 20 0;
+}
+
+.pilares{
+
+    padding-top: var(--marginelementos);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ecologico{
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    background-image: url(../Imagenes/madera.jpg);
+    width: 300px;
+    height:300px;
+    border-radius: 155px;
+    border: 5px solid #6eb969;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.ecologico h3{
+    color: fuchsia;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 10px;
+
+
+}
+
+.didactico{
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    background-image: url(../Imagenes/didacticos.jpeg);
+    width: 300px;
+    height: 300px;
+    border-radius: 155px;
+    border:  5px solid #6eb969;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.didactico h3{
+    color: fuchsia;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.duradero{
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    background-image: url(../Imagenes/Juguetes.jpeg);
+    width: 300px;
+    height:300px;
+    border-radius: 155px;
+    border: 5px solid #6eb969;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.duradero h3{
+    color: fuchsia;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.proyects{
+    background: #a381f2;
+}
+.contenedor-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contenedor-imagenes img{
+    display: block;
+    width: 30%;
+    box-shadow: 0 0 8px rgb(0, 0, .4),;
+    margin-bottom: var(--marginelementos) ;
+}
+
+/*Nosotros*/
+
+.main2{
+    justify-content: center;
+    background-color: #14AAA5;
+}
+imagen-main2{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Galeria Grid*/
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.galeria{
+    background-color: #6eb969;
+    font-size: 3rem;
+}
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a7891;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover{
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    .tall {
+        grid-row: span 2;
+    }
+    
+    .wide {
+        grid-column: span 2;
+    }
+}
+
+/*Footer*/
+
+.fondo-footer{
+    background-color: #afabab;
+    margin: 0;
+    padding: 20px;;
+}
+.titulo-seccion2{
+    text-align: center;
+    font-size: 30px;
+    color: var(--colortextos);
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+.redes-sociales i{
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.derechos{
+    color: #f0f05f;
+}
+
+.imgRedondaG{
+    width: 360px;
+    height: 360px;
+    border-radius: 75px;
+    border: 5px solid #6eb969;
+}
+@media screen and (max-width:340px){
+    .menu-navegacion{
+        flex-direction: column;
+        height: 180px;
+        justify-content: space-evenly;
+    }
+    .portada h1{
+        font-size: 35px ;
+    }
+    .portada p{
+        font-size: 20px;
+    }
+    .ecologico{
+        margin-bottom: 30px;
+    }
+    .didactico{
+        margin-bottom: 30px;
+    }
+    .contenedor-imagenes img{
+        width: 90%;
+    }
+    .copy{
+        margin-bottom: 40px ;
+    }
+}
+
+/*Historia*/
+
+.historia{
+    text-align: justify;
+    font-size: xx-large ;
+    margin: 50px;
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+.principal {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#5a7891;
+    border:2px solid #e61e5a ;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color: #f0aa46;
+}
+textarea {
+    height:150px;
+}
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    
+}

@@ -1,0 +1,29 @@
+- Elegir UNA SOLA tipografía de cada carpeta y utilizar para cada  tipo de texto.
+Por ejemplo: quedan bien Baloo (titulos), Playtime With Hot toodies (Frases) y Dosis Regular o extralight (textos largos) 
+
+- A los textos largos hay que asegurarles buen contraste con el fondo cuando le elijas el color. 
+
+Podes chequear si tienen buen contraste los colores que elegís acá 
+
+https://www.siteimprove.com/toolkit/color-contrast-checker/
+
+A la paleta de colores agregale el negro o un gris oscuro, y el blanco (que tampoco tiene que ser blanco puro necesariamente) 
+
+Acá hay un selector de colore web 
+
+https://htmlcolorcodes.com/es/
+
+Acá tenés para subir imágenes a una url 
+https://app.netlify.com/drop
+
+patrones en css
+https://csslayout.io/
+
+fuentes de google
+https://fonts.google.com/
+
+hacer ondas/olas
+https://getwaves.io/
+
+fondos degradados
+https://webgradients.com/

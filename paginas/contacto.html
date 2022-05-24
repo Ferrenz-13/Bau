@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-navegacion contenedor">
+            <div class="logo">
+            <img src="../Imagenes/logoconnombre.png" alt="logo" class="logoSolo">
+            </div>
+            <div class="enlaces">
+            <li>
+                <a href="./nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="./galeria.html">Galeria</a>
+            </li>
+            <li>
+                <a href="./contacto.html">Contactos</a>
+            </li>
+            <li>
+                <a href="./tienda.html">Tienda</a>
+            </li>
+            </div>
+        </nav>
+    </header>
+    <main class="main3">
+    <Fieldset>
+<legend><h3>Contactos</h3></legend>
+    <form action="enviar.php" method="post" enctype="text/plain" >
+        <label for="name">Nombre:</label>
+        <input type="text" name="Nombre" required><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="Apellido"><br>
+        <label for="tel">Telefono:</label>
+        <input type="number"><br>
+        <label for="">E-mail:</label>
+        <input type="mail" required><br>
+        <br><br>
+        <label for="Newsletter">Desea recibir el Newsletter</label>
+        <input type="radio" name="" id=""><br>
+        <textarea name="" placeholder="Comentarios" id="" cols="35" rows="10"></textarea><br>
+        <input type="reset" value="Limpiar Formulario">
+        <input type="submit" value="Enviar Formulario">
+    </fieldset>
+    </form>
+    <hr>
+    
+    </main>
+    <footer class="fondo-footer">
+        <div class="contenedor">
+        <h2 class="titulo-seccion2"> Contactate con nosotros</h2>
+        </div>
+        <div class="redes-sociales">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-whatsapp-square"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="contenedor">
+            <p class="copy">© 2022 Enzo Ferraris / Todos los derechos reservados.</p>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li><a class="boton" href="../index.html">Inicio</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
