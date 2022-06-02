@@ -223,10 +223,28 @@ body{
 .main2{
     background-color: #14AAA5;
 }
-imagen-main2{
-    align-items: center;
-    justify-content: center;
+h2{
+    text-align: center;
+    background-color: #14AAA5;
+    color: green;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-bottom: 0;
 }
+.nosotros{
+    height: 500px;
+    width: 100%;
+    background-color: #6eb969;
+}
+
+.nizquierda{
+
+}
+
+.nderecha{
+    background-image: url(../Imagenes/caja\ arcoiris.jpeg);
+}
+
 /* Galeria Grid*/
 h1{
     font-size: 60px;
